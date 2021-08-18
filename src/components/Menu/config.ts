@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://bscclassic.org/#/swap',
+        href: 'https://gardenswap.netlify.app/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://bscclassic.org/#/pool',
+        href: 'https://gardenswap.netlify.app/#/pool',
       },
     ],
   },

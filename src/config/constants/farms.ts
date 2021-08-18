@@ -5,12 +5,12 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'BSX-BUSD LP',
+    lpSymbol: 'GRT-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
     },
-    tokenSymbol: 'BSX',
+    tokenSymbol: 'GRT',
     tokenAddresses: {
       97: '',
       56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
@@ -21,12 +21,12 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'BSX-BNB LP',
+    lpSymbol: 'GRT-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
     },
-    tokenSymbol: 'BSX',
+    tokenSymbol: 'GRT',
     tokenAddresses: {
       97: '',
       56: '0x31834433C5B5D679Bf9041F3D4e57Bb1ead15532',
@@ -182,12 +182,12 @@ const farms: FarmConfig[] = [
     pid: 12,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'BSX',
+    lpSymbol: 'GRT',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // BSX-BUSD LP
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // GRT-BUSD LP
     },
-    tokenSymbol: 'BSX',
+    tokenSymbol: 'GRT',
     tokenAddresses: {
       97: '',
       56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
@@ -202,7 +202,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // BSX-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // GRT-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
